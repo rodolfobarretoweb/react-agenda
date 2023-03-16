@@ -53,18 +53,7 @@
   "name": "react-zaw-agenda",
   "author": "zawette",
   "module": "dist/react-zaw-agenda.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/react-zaw-agenda.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/react-zaw-agenda.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^4.7.0",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
     "husky": "^4.3.0",
